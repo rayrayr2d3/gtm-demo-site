@@ -22,12 +22,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 #### Pages:
-[] Homepage
+[ ] Homepage
 
-[] About Page
+[ ] About Page
 
-[] Event Page
+[ ] Event Page
 
-[] Product Page
+[ ] Product Page
 
-[] Form Page
+[ ] Form Page
