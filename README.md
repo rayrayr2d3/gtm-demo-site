@@ -1,6 +1,7 @@
 # gtm-demo-site.github.io
 a demo site for google tag manager
 
+## Google Tag Manager
 ### header: 
 ```
 <!-- Google Tag Manager -->
@@ -18,6 +19,19 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KDNHFLG"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
+```
+
+## Google Analytics
+```
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-154505431-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-154505431-1');
+</script>
 ```
 
 
