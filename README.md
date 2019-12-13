@@ -1,6 +1,7 @@
 # gtm-demo-site.github.io
 a demo site for google tag manager
 
+## Google Tag Manager
 ### header: 
 ```
 <!-- Google Tag Manager -->
@@ -20,14 +21,27 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 ```
 
+## Google Analytics
+```
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-154505431-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-154505431-1');
+</script>
+```
+
 
 #### Pages:
-[] Homepage
+[ ] Homepage
 
-[] About Page
+[ ] About Page
 
-[] Event Page
+[ ] Event Page
 
-[] Product Page
+[ ] Product Page
 
-[] Form Page
+[ ] Form Page
